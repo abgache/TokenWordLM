@@ -15,7 +15,7 @@ Which mean we'll need around 18.5 bytes to write 336000 in binary, soo we rounde
 """
 
 # Env variables
-TXT_DATASET_PATH = r"I:\Dataset\wikipediaTXT.txt"
+TXT_DATASET_PATH = ""
 JSON_TOKENIZER_PATH = "tokenizer.json"
 
 eer = input(f"Do you wanna load the dataset [Y/N]?\n>>> ")
@@ -124,3 +124,4 @@ while True:
         word1=word2
         word2=tmp
     print(f"La réponse du LM est :\n{answer}")
+
