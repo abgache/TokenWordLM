@@ -6,6 +6,7 @@ This is a test language model, a bad one.
 In the V1 of TWLM a token is equal to a word (french one, [json dictionnary](https://github.com/words/an-array-of-french-words)).
 It has context lenght of 2 tokens.
 No embeddings, the DNN just get the two last token id's.
+The DNN has 21.7Millions parameters.
 To test it :
 ```batch
 git clone https://github.com/abgache/TokenWordLM.git
