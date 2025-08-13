@@ -17,7 +17,9 @@ python main.py
 ```
 # Version 2:  
 ## Info :  
-None  
+This is a test language model, a bad one.  
+It has a normal tokenizer, [source](https://github.com/abgache/tokenizer), a normal embedding but no transformer model.  
+It basically just calculate the average of all the word's embeddings and gives it to the model (30Millions parameters). 
 ## Usage :  
 ```batch
 git clone https://github.com/abgache/TokenWordLM.git
