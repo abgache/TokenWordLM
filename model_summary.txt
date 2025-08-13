@@ -1,0 +1,24 @@
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ embedding (Embedding)       (None, 2, 64)             21537536
+
+ flatten (Flatten)           (None, 128)               0
+
+ dense (Dense)               (None, 128)               16512
+
+ dense_1 (Dense)             (None, 256)               33024
+
+ dense_2 (Dense)             (None, 512)               131584
+
+ dense_3 (Dense)             (None, 19)                9747
+
+=================================================================
+Total params: 21,728,403
+Trainable params: 21,728,403
+Non-trainable params: 0
+_________________________________________________________________
+
+21.7M LM 
+Word=Token
+2 token context lenght
