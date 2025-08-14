@@ -26,7 +26,7 @@ git clone https://github.com/abgache/TokenWordLM.git
 cd TokenWordLM
 cd V2
 ```
-Download [Goggle W2V](https://huggingface.co/LoganKilpatrick/GoogleNews-vectors-negative300/blob/main/GoogleNews-vectors-negative300.bin.gz) and any TXT dataset, and add theirs path to ``import_env.py``.  
+Download [Google W2V](https://huggingface.co/LoganKilpatrick/GoogleNews-vectors-negative300/blob/main/GoogleNews-vectors-negative300.bin.gz) and any TXT dataset, and add theirs path to ``import_env.py``.  
 Then run 
 ```batch
 python train.py
